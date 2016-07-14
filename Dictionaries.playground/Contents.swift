@@ -20,6 +20,7 @@ for (key, value) in airports {
     print("The abbreviation for \(value) is \(key)")
 }
 
+//You do not need to use key and value to iterate over the dictionary, just know that the key comes first.
 for (airportCode, airportName) in airports {
     print("The abbreviation for \(airportName) is \(airportCode)")
 }
